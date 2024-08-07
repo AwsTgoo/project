@@ -11,7 +11,7 @@ jobs:
     docker:
       # Specify the version you desire here
       # See: https://circleci.com/developer/images/image/cimg/base
-      - image: cimg/php
+      - image: cimg/php:8.2.22
     resource_class: small
 
     # Add steps to the job
